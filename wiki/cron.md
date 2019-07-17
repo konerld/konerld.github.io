@@ -1,8 +1,12 @@
 cron
 
-/etc/crontab
-# m h dom mon dow user  command
+Файл cron расписаний:
+	
+	/etc/crontab
 
+```
+# m h dom mon dow user  command
+```
 
 etc/cron.hourly/* — сценарии выполняющиеся каждый час
 /etc/cron.daily/* — сценарии выполняющиеся каждый день
