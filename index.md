@@ -6,7 +6,7 @@
 - [cron](cron "All about crontab")
 - [tmux](tmux "All about tmux")
 - [Vi / Vim](vim "All about Vim")
-
+- [CentOS](CentOS "All about CentOS")
 
 ## Network
 [Mikrotik](Mikrotik "All about Mikrotik")
@@ -18,17 +18,18 @@
 - [Sublime](Sublime "All about Sublime")
 - [Visual Studio Code](vsCode "All about vsCode")
 
+
+
 ## Programming Lang
 [Python](Python "All about Python")
 - [pdb](python_pdb "All about Python pdb")
 - [Selenium](Selenium "All about Selenium")
 
 
-[CentOS](CentOS "All about CentOS")
+## Other
+[Git](GIT "All about Git")
 
 [Docker](docker "All about Docker")
-
-[Git](GIT "All about Git")
 
 [mySQL](mySQL "All about mySQL")
 
