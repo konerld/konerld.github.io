@@ -1,0 +1,9 @@
+Ras PI
+
+git://git.drogon.net/wiringPi
+gut pull origin 
+./build
+reboot
+
+gpio -v
+

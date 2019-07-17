@@ -1,0 +1,103 @@
+# /opt/mediacenter/docker-compose.yml
+
+version: '2'
+services:
+# Plex media server
+  plex:
+    container_name: plex
+    hostname: plex
+    image: plexinc/pms-docker:plexpass
+    restart: unless-stopped
+# If you need DLNA you need to comment ports section and use host network mode.
+    network_mode: host
+    # ports:
+    #  - 32400:32400/tcp
+    #  - 33400:33400/tcp
+    #  - 3005:3005/tcp
+    #  - 8324:8324/tcp
+    #  - 32469:32469/tcp
+    #  - 1900:1900/udp
+    #  - 32410:32410/udp
+    #  - 32412:32412/udp
+    #  - 32413:32413/udp
+    #  - 32414:32414/udp
+    environment:
+      - TZ=Europe/Moscow
+      - ADVERTISE_IP=http://192.168.148.90:32400/
+      - PLEX_UID=1000
+      - PLEX_GID=1000
+    # - PLEX_CLAIM=
+    # to get PLEX_CLAIM https://www.plex.tv/claim/
+    volumes:
+      - /opt/mediacenter/plex-config:/config
+      - /opt/mediacenter/plex-transcode:/transcode
+      - /data/Media:/Media
+
+# Monitoring of torrent sites for update
+  torrentmonitor:
+    container_name: torrentmonitor
+    hostname: torrentmonitor
+    image: nawa/torrentmonitor
+    ports:
+      - 8080:80/tcp
+    volumes:
+      - /opt/mediacenter/torrentmonitor-torrents:/data/htdocs/torrents
+      - /opt/mediacenter/torrentmonitor-db:/data/htdocs/db
+    links:
+      - transmission
+
+  monitorrent:
+    container_name: monitorrent
+    hostname: monitorrent
+    image: werwolfby/alpine-monitorrent
+    ports:
+      - 6687:6687/tcp
+    volumes:
+      - /opt/mediacenter/monitorrent-db:/db
+    environment:
+      - MONITORRENT_DB_PATH=/db/monitorrent.db
+    links:
+      - transmission
+
+# Torrent client
+  transmission:
+    container_name: transmission
+    hostname: transmission
+    image: linuxserver/transmission
+    ports:
+      - 9091:9091/tcp
+      - 51413:51413/tcp
+      - 51413:51413/udp
+    volumes:
+      - /opt/mediacenter/transmission-config:/config
+      - /data/Media/Downloads:/downloads
+      - /data/Media/Torrents:/watch
+    environment:
+      - PGID=1000
+      - PUID=1000
+      - TZ=Europe/Moscow
+
+# Personal file share
+  owncloud:
+    container_name: owncloud
+    hostname: owncloud
+    image: owncloud
+    ports:
+      - 8081:80/tcp
+    volumes:
+      - /opt/mediacenter/owncloud-config:/var/www/html/config
+      - /opt/mediacenter/owncloud-apps:/var/w ww/html/apps
+      - /data/Media/ownCloud:/var/www/html/data
+      - /data/Media/:/Media
+    links:
+      - mysql
+
+# Database server
+  mysql:
+    container_name: mysql
+    hostname: mysql
+    image: mariadb
+    environment:
+      - MYSQL_ROOT_PASSWORD=<mysql password>
+    volumes:
+      - /opt/mediacenter/mariadb-data:/var/lib/mysql
