@@ -28,14 +28,9 @@
 
 ## Other
 [Git](GIT "All about Git")
-
-[Docker](docker "All about Docker")
-
-[mySQL](mySQL "All about mySQL")
-
-[OpenStack](OpenStack "All about OpenStack")
-
-[Telegram Bot](telegram_bot "All about telega bot")
-
-[En-Ru Words](en-ru_words "Ususal en-ru words")
+- [Docker](docker "All about Docker")
+- [mySQL](mySQL "All about mySQL")
+- [OpenStack](OpenStack "All about OpenStack")
+- [Telegram Bot](telegram_bot "All about telega bot")
+- [En-Ru Words](en-ru_words "Ususal en-ru words")
 
