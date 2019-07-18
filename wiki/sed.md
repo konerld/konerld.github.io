@@ -2,8 +2,13 @@
 
 sed 's/test/another test' file.txt
 
--f file		-	взять команды из файла
--e 's/test/another test/ s/this/that'	-	несколько замен
+взять команды из файла
+
+	-f file
+	
+несколько замен:
+
+	-e 's/test/another test/ s/this/that'
 
 
 флаги замены:
