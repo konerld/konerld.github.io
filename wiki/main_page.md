@@ -30,15 +30,17 @@ redirect_from: "/"
 
 ## Programming Lang
 [Python](Python "All about Python")
+- [python_examples](python_pdb "Some python examples")
 - [pdb](python_pdb "All about Python pdb")
 - [Selenium](Selenium "All about Selenium")
 
 
 ## Other
 [Git](GIT "All about Git")
+- [Ansible](Ansible "All about Ansible")
 - [Docker](docker "All about Docker")
 - [mySQL](mySQL "All about mySQL")
 - [OpenStack](OpenStack "All about OpenStack")
-- [Telegram Bot](telegram_bot "All about telega bot")
+- [Telegram Bot](telegram_bot "All about telegram bot")
 - [En-Ru Words](en-ru_words "Ususal en-ru words")
 
