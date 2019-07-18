@@ -102,7 +102,7 @@ based upon           | исходя из             |
 | implementation     | реализация            |
 | improperly         | неправильно           |
 | initial            | первоначальный        |
-| inherits           | наследовать           |
+| inherit            | наследовать           |
 | intact             | неповрежденный        |
 | interference       | помехт/вмешательство  |
 | interleaving       | чередования           |
