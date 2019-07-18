@@ -25,7 +25,7 @@ redirect_from: "/"
 - [PyCharm](PyCharm "All about PyCharm")
 - [Sublime](Sublime "All about Sublime")
 - [Visual Studio Code](vsCode "All about vsCode")
-- [Mac Os setup](mac_setup "All about mac os setup tricks")
+- [Mac OS setup](mac_setup "All about mac os setup tricks")
 
 
 ## Programming Lang
