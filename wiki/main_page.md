@@ -36,7 +36,7 @@ redirect_from: "/"
 
 
 ## Other
-[Git](GIT "All about Git")
+- [Git](GIT "All about Git")
 - [Ansible](Ansible "All about Ansible")
 - [Docker](docker "All about Docker")
 - [mySQL](mySQL "All about mySQL")
