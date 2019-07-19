@@ -164,6 +164,7 @@ based upon           | исходя из             |
 | responsibility     | ответственность       |
 | restricted         | ограниченный          |
 | RFI                | радиопомехи           |
+| get rid            | избавиться            |
 | routines           | процедуры             |
 | same               | тот же                |
 | scalable           | масштабируемые        |
