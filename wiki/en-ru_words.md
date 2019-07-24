@@ -189,6 +189,7 @@ based upon           | исходя из             |
 | transmission       | передача              |
 | utgent             | срочный/необходимый   |
 | useable            | полезный              |
+| vulnerable         | уязвимый              |
 | wiring             | проводка              |
 | within             | в пределах            |
 | wrapped            | завёрнуто             |
