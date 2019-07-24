@@ -24,7 +24,7 @@
 | bandwidth          | пропускная способность |
 | attempting         | попытки               |
 | backoff            | откат                 |
-based upon           | исходя из             |
+| based upon         пше| исходя из          |
 | belong             | пренадлежать          |
 | benefit            | польза                |
 | braiding           | оплётка               |
