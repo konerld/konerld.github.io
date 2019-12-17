@@ -50,8 +50,8 @@ git: git хранит разницу помеченную на добавлен�
 ## Настройка
 ### Прописать в настройках имя и почту:
 
-	git congig --global user.name 'ivanov'
-	git congig --global user.email 'ivan@ivanov.ru'
+	git config --global user.name 'ivanov'
+	git config --global user.email 'ivan@ivanov.ru'
 
 ### Просмотреть настройки
 

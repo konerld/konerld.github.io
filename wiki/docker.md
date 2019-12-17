@@ -1,4 +1,36 @@
-docker
+# Docker
+
+## What is Docer ?
+- Container Image spec
+	how to package
+- Cont
+
+## What is Kubernetes role ?
+Kubernetes is orchestrator for docker containers:
+- Deploy
+- Scale
+- Manage
+
+## What including in Kubernetes master ?
+- API server
+- Scheduler
+- COntroller
+- etcd
+
+## What including in Kuber nodes ?
+- Pods
+- Docker
+- kube proxy
+- kubelet
+- Fluentd
+- Optional
+	- DNS
+	- UI
+	- etc
+
+
+
+Docker file -build-> Docker image -run-> Docker container
 
 Изоляция достигается за счет использования таких Linux-механизмов, как:
 namespaces	-	обеспечивают изоляцию в рамках ОС
@@ -75,3 +107,23 @@ docker run --restart=always -d -p 5867:5867 -e PROXY_USER=SET_USER -e PROXY_PASS
 
 
 
+### Whar is CNCF?
+Answer:
+
+
+
+
+
+
+
+# Questions
+
+## Block 1
+
+### Question 1 of 3
+
+### Question 2 of 3
+What is the CNCF?
+- Container Networking CLoud Fundation
+- Cloud Native Computing Fundation
+- Cloud 

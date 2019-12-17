@@ -12,6 +12,7 @@
 | allow              | позволять             |
 | altered            | изменён               |
 | among              | среди                 |
+| anticipate         | предвидеть            |
 | applying           | применение            |
 | appropriate        | соответствующий       |
 | approach           | подход                |
@@ -23,16 +24,20 @@
 | attenuation        | затухание             |
 | bandwidth          | пропускная способность |
 | attempting         | попытки               |
+|                    |                       |
 | backoff            | откат                 |
 | based upon         пше| исходя из          |
 | belong             | пренадлежать          |
 | benefit            | польза                |
 | braiding           | оплётка               |
+|                    |                       |
 | capabilities       | возможности           |
 | carry              | проводить             |
 | ceases             | прекращает            |
+| civilian           | гражданский           |
 | cocky              | самоуверенный         |
 | combines           | сочетает              |
+| commit             | совершить             |
 | common             | общий                 |
 | commonly           | обычно                |
 | compatibility      | совместимость         |
@@ -48,6 +53,7 @@
 | converged          | конвергентных         |
 | corresponding      | соответствующий       |
 | coverage           | покрытие              |
+|                    |                       |
 | decide             | решать                |
 | decrease           | снижение              |
 | delimit            | разграничить          |
@@ -64,6 +70,7 @@
 | drawback           | недостаток            |
 | durable            | долговечное           |
 | during             | во время              |
+|                    |                       |
 | each               | каждый                |
 | effort             | усилие                |
 | eliminate          | ликвидировать         |
@@ -84,6 +91,7 @@
 | expensive          | дорогой($)            |
 | experiencing       | испытывающих          |
 | extension          | расширение            |
+|                    |                       |
 | features           | функции               |
 | fiber              | волокно               |
 | field              | поле                  |
@@ -91,11 +99,16 @@
 | faint              | слаюый                |
 | flows              | поток                 |
 | frequency          | частота               |
+|                    |                       |
 | gather             | собирать              |
 | gutsy              | бесстрашный           |
+|                    |                       |
 | handshake          | рукопожатие           |
 | hazards            | поражение             |
 | hexadecimal        | шестнацатаричная      |
+| huge               | огромный              |
+|                    |                       |
+| iron out (issues)  | сгладить              |
 | in handling        | при обработке         |
 | impact             | влияние               |
 | implement          | обеспечивать/осуществлять |
@@ -103,6 +116,7 @@
 | improperly         | неправильно           |
 | initial            | первоначальный        |
 | inherit            | наследовать           |
+| insurgency         | мятеж                 |
 | intact             | неповрежденный        |
 | interference       | помехт/вмешательство  |
 | interleaving       | чередования           |
@@ -111,22 +125,29 @@
 | invoke             | вызывать              |
 | involved           | участвующий/вовлечённый |
 | issuing            | выдачи                |
+|                    |                       |
 | leakage            | утечка                |
 | leased             | арендованный          |
+| liaison            | связь взаимодействие  |
+|                    |                       |
 | maintenance        | обслуживание          |
 | manufacturer       | производитель         |
 | meaning            | смысл                 |
 | measures           | меры/измеренный       |
+|                    |                       |
 | necessary          | необходимо            |
 | negotiating        | введение              |
 | nodes              | узлы                  |
+|                    |                       |
 | occurs             | происходит            |
+| opportunity        | возможность           |
 | originate          | возникать             |
 | outgoing           | исходящий             |
 | outline            | набросок              |
 | overhead           | накладные расходы     |
 | overlapping        | перекрытие            |
 | overwhelmed        | перегружены           |
+|                    |                       |
 | path               | путь                  |
 | patterns           | шаблоны               |
 | permissions        | разрешения            |
@@ -144,17 +165,22 @@
 | properties         | свойства              |
 | provides           | обеспечивает          |
 | purpose            | цель                  |
+|                    |                       |
+| quells             | подавлять успокаивать |
 | query              | запрос                |
+|                    |                       |
 | range              | диапазон              |
 | reassembled        | собраны               |
 | receives           | получает              |
 | reduce             | уменьшить             |
 | reduced            | снижение              |
 | refers             | относится             |
+| refuse             | отказаться            |
 | reflective         | отражающий            |
 | regarding          | в отношении/о         |
 | reliability        | надёжность            |
 | remaining          | остальной             |
+| renege             | отречься отказаться   |
 | represent          | представлять/содержат |
 | representation     | представление         |
 | require            | требовать             |
@@ -166,6 +192,7 @@
 | RFI                | радиопомехи           |
 | get rid            | избавиться            |
 | routines           | процедуры             |
+|                    |                       |
 | same               | тот же                |
 | scalable           | масштабируемые        |
 | scheme             | схема                 |
@@ -175,12 +202,14 @@
 | sequentially       | последовательно       |
 | significance       | значение              |
 | simultaneously     | одновременно          |
+| species            | вид порода            |
 | statements         | утверждение           |
 | suspends           | приостанавлевает      |
 | strengthening      | укрепление            |
 | stripping          | зачистка              |
 | substitute         | замена                |
 | susceptibility     | восприимчивость/подверженность |
+|                    |                       |
 | term               | срок                  |
 | tension            | напряжение            |
 | through            | через                 |
@@ -191,6 +220,8 @@
 | useable            | полезный              |
 | vulnerable         | уязвимый              |
 | wiring             | проводка              |
+|                    |                       |
+| weird              | странно               |
 | within             | в пределах            |
 | wrapped            | завёрнуто             |
 

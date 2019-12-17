@@ -1,22 +1,29 @@
-################################################
-######## mySQL #################################
-################################################
+# SQL
 apt-get install mysql-server
 
 Язык SQL подрязделяется на 4 категории:
 DDL - Data Definition Language (язык описания данных)
 	CREATE - создание новой таблицы, СУБД, схемы
 	ALTER - изменение существующей таблицы, колонки
+		
 		sqlite> ALTER table switch ADD COLUMN mngmt_ip text;
 		sqlite> ALTER table switch ADD COLUMN mngmt_vid integer;
+	
 	DROP - удаление существующих объектов из СУБД
+	
 		DROP table table_name;
+	
 DML - Data Manipulation Language (язык манипулирования данными)
+	
 	SELECT - выбор данных
+	
 		SELECT * from switch;
+	
 	INSERT - добавление новых данных
+
 		INSERT into switch (mac, model, location, hostname)
 		values ('0020.A2AA.C2CC', 'Cisco 3850', 'London, Green Str', 'sw2');
+	
 	UPDATE - обновление существующих данных
 		UPDATE switch set mngmt_ip = '10.255.1.1' WHERE hostname = 'sw1';
 		UPDATE switch set mngmt_vid = 255 WHERE hostname = 'sw1';

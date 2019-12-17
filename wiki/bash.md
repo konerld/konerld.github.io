@@ -269,7 +269,10 @@
 ### предварительны просмотр печати
 	pr filename
 
+## xargs
+Просмотреть дату на всех хостах из файла /etc/hosts (ssh-ключи уже добавлены)
 
+	awk '/^10/ {print $1}' /etc/hosts | xargs -n1 -I{} ssh '{}' date
 
 
 ## SED
