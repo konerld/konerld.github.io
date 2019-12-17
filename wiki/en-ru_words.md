@@ -26,7 +26,7 @@
 | attempting         | попытки               |
 |                    |                       |
 | backoff            | откат                 |
-| based upon         пше| исходя из          |
+| based upon         | исходя из          |
 | belong             | пренадлежать          |
 | benefit            | польза                |
 | braiding           | оплётка               |
