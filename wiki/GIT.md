@@ -246,4 +246,9 @@ have
 
 	https://learngitbranching.js.org/
 
+How to reset root password in gitlab
+
+	https://docs.gitlab.com/ee/security/reset_root_password.html
+
+
 

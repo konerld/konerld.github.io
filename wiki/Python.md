@@ -41,14 +41,14 @@ vi .bashrc
 	# virtualenvwrapper
 	export WORKON_HOME=$HOME/python_enviroments
 	source /usr/local/bin/virtualenvwrapper.sh
-source bashrc
-mkvirtualenv <virtenv_name>
+source .bashrc
+mkvirtualenv --python=/usr/local/bin/python3.6 $env_name
 deactivate
 workon <virtualenv_name>
 
 добавить и активировать вирт окружение
 virtualenv <virtualenv_name>
-sourcw <virtualenv_name>/bun/activate
+source <virtualenv_name>/bun/activate
 
 выйти из окружения
 deactivate
