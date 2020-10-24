@@ -32,3 +32,19 @@ curl -s -X POST $URL -d chat_id=$CHAT_ID -d text="$MESSAGE"
 Q > Как отправить сообщение curl'ом
 A > example:
     curl -s -X POST https://api.telegram.org/bot<TOKEN>/sendMessage -d chat_id=<CHAT_id> -d text="Hello World"
+
+
+## Рассылка опроса
+
+TOKEN="xxxxxxxxxx:xxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxx"
+URL="https://api.telegram.org/bot$TOKEN/sendPoll"
+
+curl -X POST $URL \
+-H 'Content-Type: application/json' \
+-d '{"chat_id":"902547",
+     "question":"Кто здесь?",
+     "is_anonymous":false, 
+     "options":["Уже работаю!",
+                "Сплю, вчера ночью работал.",
+                "Приболел / COVID-19"]
+     }'
