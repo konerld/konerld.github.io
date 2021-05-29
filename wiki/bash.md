@@ -5,7 +5,7 @@
 	locale-gen ru_RU.UTF-8
 	dpkg-reconfigure locales
 	sudo apt-get install console-cyrillic
-
+	localectl set-locale LANG=ru_RU.UTF-8
 
 ## Комбинации клавиш
 	Ctrl + L 	- Очистить экран
@@ -829,11 +829,22 @@ route del default
 	
 Q > Как проверить работоспособность nfs шары?
 A > Попробовать примонтировать командой:
+```
     mount -t nfs {IP шары}:/{путь/к/директории/на/сервере} {путь/к/локальной/директории}
-
+```
 Q > Проверить сколько свободно места на диске
 A > 
+```
     df -h
+```
+Q > Как инициализировать жесткий диск в системе без перезагрузки?
+A >
+```
+	#!/bin/bash
+	for i in /sys/class/scsi_host/host*; do 
+	echo "- - -" > $i/scan; 
+	done
+```
 
 
 
